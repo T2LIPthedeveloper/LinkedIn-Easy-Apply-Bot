@@ -1,4 +1,4 @@
-# Linkedin EasyApply Bot
+# LinkedIn Easy Apply Bot
 Automate the application process on LinkedIn
 
 Write-up: https://www.nicolomantini.com/p/how-to-apply-for-jobs-while-you-are-sleeping
@@ -8,7 +8,7 @@ Video: https://www.youtube.com/watch?v=4R4E304fEAs
 
 Python 3.10 using a conda virtual environment on Linux (Ubuntu)
 
-The run the bot install requirements
+To run the bot, install the requirements:
 ```bash
 pip3 install -r requirements.txt
 ```
@@ -49,12 +49,12 @@ __NOTE: AFTER EDITING SAVE FILE, DO NOT COMMIT FILE__
 ### Uploads
 
 There is no limit to the number of files you can list in the uploads section. 
-The program takes the titles from the input boxes and tries to match them with 
+The program takes the titles from the input boxes and tries to match them with the 
 list in the config file.
 
 ## Execute
 
-To execute the bot run the following in your terminal
+To execute the bot, run the following command in your terminal:
 ```
 python3 easyapplybot.py
 ```
